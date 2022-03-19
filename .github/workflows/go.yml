@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         go get -u github.com/faiface/beep
-        sudo apt install libasound2-dev
+        sudo apt install libasound2-dev libgl1-mesa-dev
 
     - name: Build
       run: go build -v ./...
