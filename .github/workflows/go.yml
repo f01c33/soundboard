@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         go get -u github.com/faiface/beep
-        apt install alsa
+        sudo apt install alsa
 
     - name: Build
       run: go build -v ./...
