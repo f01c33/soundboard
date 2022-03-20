@@ -215,7 +215,12 @@ func loop() {
 }
 
 func main() {
-	data, err := os.ReadFile("./setlist.json")
+	home, err := os.UserHomeDir()
+	if err != nil {
+		log.Println(err)
+		return
+	}
+	data, err := os.ReadFile(home + "/.setlist.json")
 	if err == nil {
 		err = json.Unmarshal(data, &files)
 		if err != nil {
@@ -262,13 +267,20 @@ func main() {
 }
 
 func saveSetlist() {
+	home, err := os.UserHomeDir()
+	if err != nil {
+		log.Println(err)
+		return
+	}
 	data, err := json.MarshalIndent(files, "", "  ")
 	if err != nil {
 		log.Println(err)
+		return
 	}
-	err = os.WriteFile("./setlist.json", data, 0644)
+	err = os.WriteFile(home+"/.setlist.json", data, 0644)
 	if err != nil {
 		log.Println(err)
+		return
 	}
 	fmt.Println("setlist saved")
 }
