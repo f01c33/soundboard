@@ -231,7 +231,6 @@ func main() {
 	}
 	wnd := g.NewMasterWindow("Soundboard", 1920*2/3, 1080*2/3, g.MasterWindowFlags(g.WindowFlagsNone))
 	wnd.SetDropCallback(func(f []string) {
-		files = append(files, f...)
 		for i, file := range f {
 			err = loadfile(file)
 			if err != nil {
