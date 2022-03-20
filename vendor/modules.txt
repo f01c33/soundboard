@@ -7,13 +7,13 @@ github.com/AllenDang/go-findfont
 # github.com/AllenDang/imgui-go v1.12.1-0.20220118055608-8cbd98e97ca2
 ## explicit; go 1.16
 github.com/AllenDang/imgui-go
-# github.com/StackExchange/wmi v1.2.1
-## explicit; go 1.13
 # github.com/akavel/rsrc v0.10.2
 ## explicit; go 1.12
 github.com/akavel/rsrc/binutil
 github.com/akavel/rsrc/coff
 github.com/akavel/rsrc/ico
+# github.com/davecgh/go-spew v1.1.1
+## explicit
 # github.com/dchest/jsmin v0.0.0-20160823214000-faeced883947
 ## explicit
 github.com/dchest/jsmin
@@ -39,13 +39,9 @@ github.com/go-gl/glfw/v3.3/glfw/glfw/deps/mingw
 github.com/go-gl/glfw/v3.3/glfw/glfw/deps/vs2008
 github.com/go-gl/glfw/v3.3/glfw/glfw/include/GLFW
 github.com/go-gl/glfw/v3.3/glfw/glfw/src
-# github.com/go-ole/go-ole v1.2.6
-## explicit; go 1.12
 # github.com/go-resty/resty/v2 v2.7.0
 ## explicit; go 1.11
 github.com/go-resty/resty/v2
-# github.com/go-vgo/robotgo v0.100.10
-## explicit; go 1.17
 # github.com/hajimehoshi/go-mp3 v0.3.0
 ## explicit; go 1.14
 github.com/hajimehoshi/go-mp3
@@ -64,56 +60,22 @@ github.com/hajimehoshi/oto/internal/mux
 # github.com/josephspurrier/goversioninfo v1.3.0
 ## explicit; go 1.12
 github.com/josephspurrier/goversioninfo
-# github.com/lufia/plan9stats v0.0.0-20220305071607-d0b38dbe16db
-## explicit; go 1.16
-# github.com/lxn/win v0.0.0-20210218163916-a377121e959e
-## explicit; go 1.12
 # github.com/ncruces/zenity v0.7.12
 ## explicit; go 1.16
 github.com/ncruces/zenity
 github.com/ncruces/zenity/internal/zenutil
-# github.com/otiai10/gosseract v2.2.1+incompatible
-## explicit
 # github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8
 ## explicit; go 1.14
 github.com/pkg/browser
 # github.com/pkg/errors v0.9.1
 ## explicit
 github.com/pkg/errors
-# github.com/power-devops/perfstat v0.0.0-20220216144756-c35f1ee13d7c
-## explicit; go 1.14
 # github.com/randall77/makefat v0.0.0-20210315173500-7ddd0e42c844
 ## explicit; go 1.13
 github.com/randall77/makefat
-# github.com/robotn/gohook v0.40.0
-## explicit; go 1.17
-github.com/robotn/gohook
-# github.com/robotn/xgb v0.0.0-20190912153532-2cb92d044934
-## explicit; go 1.13
-# github.com/robotn/xgbutil v0.0.0-20190912154524-c861d6f87770
-## explicit; go 1.13
 # github.com/sahilm/fuzzy v0.1.0
 ## explicit
 github.com/sahilm/fuzzy
-# github.com/shirou/gopsutil v3.21.11+incompatible
-## explicit
-# github.com/shirou/gopsutil/v3 v3.22.2
-## explicit; go 1.15
-# github.com/tklauser/go-sysconf v0.3.10
-## explicit; go 1.13
-# github.com/tklauser/numcpus v0.4.0
-## explicit; go 1.11
-# github.com/vcaesar/gops v0.22.0
-## explicit; go 1.17
-# github.com/vcaesar/imgo v0.30.1
-## explicit; go 1.17
-# github.com/vcaesar/keycode v0.10.0
-## explicit; go 1.17
-github.com/vcaesar/keycode
-# github.com/vcaesar/tt v0.20.0
-## explicit; go 1.13
-# github.com/yusufpapurcu/wmi v1.2.2
-## explicit; go 1.16
 # golang.org/x/exp v0.0.0-20190306152737-a1d7652674e8
 ## explicit
 golang.org/x/exp/shiny/driver/gldriver
@@ -148,3 +110,5 @@ golang.org/x/net/publicsuffix
 ## explicit; go 1.17
 golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/windows
+# gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
+## explicit
