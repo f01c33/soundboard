@@ -8,4 +8,11 @@ Drag mp3's into the program, click to play. On restart the shortcuts work.
 
 ## Install
 
-todo
+```bash
+go install github.com/cauefcr/soundboard@latest
+```
+or
+```bash
+git clone https://github.com/cauefcr/soundboard.git && cd soundboard
+go install .
+```
