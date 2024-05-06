@@ -19,6 +19,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         goos: linux
         goarch: amd64
+        pre_command: sudo apt-get install -y libgtk-3-dev libasound2-dev libxxf86vm-dev
   release-linux-arm64:
     name: release linux/arm64
     runs-on: ubuntu-latest
@@ -29,6 +30,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         goos: linux
         goarch: arm64
+        pre_command: sudo apt-get install -y libgtk-3-dev libasound2-dev libxxf86vm-dev
   release-windows-amd64:
     name: release windows/amd64
     runs-on: ubuntu-latest
@@ -39,6 +41,8 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         goos: windows
         goarch: amd64
+        pre_command: sudo apt-get install -y libgtk-3-dev libasound2-dev libxxf86vm-dev
+
   release-windows-arm64:
     name: release windows/arm64
     runs-on: ubuntu-latest
@@ -49,6 +53,8 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         goos: windows
         goarch: arm64
+        pre_command: sudo apt-get install -y libgtk-3-dev libasound2-dev libxxf86vm-dev
+
   release-darwin-arm64:
     name: release darwin/arm64
     runs-on: ubuntu-latest
@@ -59,6 +65,8 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         goos: darwin
         goarch: arm64
+        pre_command: sudo apt-get install -y libgtk-3-dev libasound2-dev libxxf86vm-dev
+
   release-darwin-amd64:
     name: release darwin/amd64
     runs-on: ubuntu-latest
@@ -69,3 +77,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         goos: darwin
         goarch: amd64
+        pre_command: sudo apt-get install -y libgtk-3-dev libasound2-dev libxxf86vm-dev
