@@ -1,4 +1,4 @@
-# soundboard
+# soundboard [![Go](https://github.com/f01c33/soundboard/actions/workflows/go.yml/badge.svg)](https://github.com/f01c33/soundboard/actions/workflows/go.yml)
 Simple Go soundboard made with giu (imgui)
 
 ![screenshot](./print.png)
