@@ -159,7 +159,7 @@ func loop() {
 		}
 		addon := ""
 		if i < len(ks) {
-			addon = "[" + string(ks[i]) + "] "
+			addon = "[" + fmt.Sprint(ks[i]) + "] "
 		}
 		buttons = append(buttons,
 			g.Button(addon+splt[len(splt)-1]).OnClick(onSongClick(file)),
