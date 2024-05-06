@@ -9,10 +9,10 @@ Drag mp3's into the program, click to play. On restart the shortcuts work.
 ## Install
 
 ```bash
-go install github.com/cauefcr/soundboard@latest
+go install github.com/f01c33/soundboard@latest
 ```
 or
 ```bash
-git clone https://github.com/cauefcr/soundboard.git && cd soundboard
+git clone https://github.com/f01c33/soundboard.git && cd soundboard
 go install .
 ```
